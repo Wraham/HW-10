@@ -1,0 +1,172 @@
+/*Common Css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    
+    
+ }
+.title {
+    font-family: "Abril Fatface", serif;
+    font-weight: 800;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-weight: 800;
+    font-size: 14px;
+    color: #000;
+    background-color: #cfc91d ;
+    padding: 19px 43px;
+    display: inline-block;
+    border: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+
+    span {
+        text-align: center;
+        
+    }
+
+/*Common Css Ends*/
+
+
+/*Navbar Starts*/
+.nav .logo {
+    width: 20%;
+
+}
+
+}    
+ ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav .menu {
+    width: 70%;
+    text-align: right;
+}
+.nav .row {
+    align-items: center;
+}
+nav .menu ul li a {
+    color: gray;
+    font-weight:400 ;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 68px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+/*Navbar Ends*/
+
+
+
+/*Banner Starts*/
+#banner {
+    width: 100%;
+   
+}
+#banner .banner_cnt {
+    width: 60%;
+    padding-top: 180px;
+    line-height: 40px;
+}
+
+#banner #bannerimg {
+    width: 30%;
+    padding-top: 70px;
+}
+
+/*Banner Ends*/
+
+
+/*Category starts*/
+#category {
+    width: 100%;
+    padding-top: 100px;
+    
+}
+
+#category .title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#category .card {
+text-align: center;
+width: 25%;
+padding-left: 55px;
+padding-right: 55px;
+padding-bottom: 75px;
+padding-top: 75px;
+border: 1px solid red;
+}
+.card {
+    font-weight: 800
+}
+/*Category ends*/
+
+
+/*How it works */
+#work {
+    width: 100%;
+}
+#heading {
+    text-align: center;
+    padding-top: 250px;
+  
+}
+
+#work .workcard {
+    text-align: center;
+    padding-top: 60px;
+    line-height: 30px;
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 33.3%;
+}
+
+#work .workcard h1  {
+    font-weight: 800;
+}
+
+/*How it works ends */
+
+/*Top Worker*/
+#workers #heading h1 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+/*Top Workers ends*/
+
+
+/*Milestone starts*/
+
+
+
+/*Milestone Ends*/
+
+
+
+
+
